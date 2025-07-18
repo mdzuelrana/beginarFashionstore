@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .nav-11,.nav-11 li{
+            display: flex;
+            text-decoration: center;
+            padding-right: 20px;
+            color: white;
+            height: 60px;
+            position: static;
+            margin: 15px;
+        }
+        .nav-1{
+            background-color: black;
+            max-width: 100%;
+            height: auto;
+            position:static;
+        }
+        .btn{
+            padding-right: 0%;
+            margin: 10px;
+        }
+        .nav-2{
+           
+            text-decoration: none;
+            background-color: rgb(202, 166, 166);
+            display: block;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            unicode-bidi: isolate;
+            
+        }
+        td{
+            display: table-cell;
+            vertical-align:inherit;
+            text-align: center;
+        }
+        .item{
+            width:100%;
+        }
+        table{
+                display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    white-space: normal;
+    font-variant: normal;
+        }
+        .itmg{
+            height: 64px;
+        }
+        img{
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+        .photo{
+            width: 100%;
+            height: 60vw;
+        }
+        .shopping-time{
+            
+            width: 80vw;
+            height: 50vw;
+            margin: 35px;
+            padding-left: 45px;
+            padding-right: 0px;
+            
+        }
+        .upc{
+            
+            text-align: center;
+            margin-block-start: .83em;
+            margin-block-end: .83em;
+        }
+        .shopping-cont{
+            background-color: rgb(172, 146, 146);
+            text-align: center;
+           
+        }
+        .tb-1{
+            margin: auto;
+            padding: 12px;
+            width: 90vw;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        .bdy{
+          
+            padding: 20px;
+        }
+        .footer{
+           
+            text-align: center;
+            background-color: black;
+            padding: 15px;
+            margin-top: 10px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="nav-1">
+            <ul class="nav-11">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Fashion Store</li>
+                <div class="btn">
+                    <input type="text" placeholder="Search ...">
+                    <button class="btn">Search</button>
+                </div>
+            </ul>
+        </div>
+        <div class="nav-2">
+            <table class="item">
+                <tr>
+                <th>
+                    <img src="https://cdn.codechef.com/download/Contest+images/ROTEST/tshirt.jpeg" alt="T-shirt" class="itmg">
+                </th>
+                <th>
+                    <img src="https://cdn.codechef.com/download/Contest+images/ROTEST/sunglasses.jpeg" alt="Sun-Glass" class="itmg">
+                </th>
+                <th>
+                    <img src="https://cdn.codechef.com/download/Contest+images/ROTEST/shirts.jpeg" alt="Shirts" class="itmg">
+                </th>
+                <th>
+                    <img src="https://cdn.codechef.com/download/Contest+images/ROTEST/shoes.jpeg" alt="Shoes" class="itmg">
+                </th>
+                <th>
+                    <img src="https://cdn.codechef.com/download/Contest+images/ROTEST/pants.jpeg" alt="Pants" class="itmg">
+                </th>
+                <th>
+                    <img src="https://cdn.codechef.com/download/Contest+images/ROTEST/perfume.jpeg" alt="Perfumes" class="itmg">
+                </th>
+            </tr>
+            <tr>
+                <td>T-shirts</td>
+                <td>Sun-Glass</td>
+                <td>Shirts</td>
+                <td>Shoes</td>
+                <td>Pants</td>
+                <td>Perfumes</td>
+            </tr>
+
+            </table>
+        </div>
+        <div class="shopping-cont">
+            <div class="photo">
+                <a href>
+                    <img src="	https://cdn.codechef.com/download/Contest+images/ROTEST/shopingtime.jpeg" alt="shopping time" class="shopping-time">
+                </a>
+            </div>
+            <h2 class="upc">OUR UPCOMING SALES</h2>
+            <div class="tb">
+                <table class="tb-1">
+                    <thead>
+                        <tr>
+                        <th>Festival</th>
+                        <th>Discount</th>
+                        <th>Startting Date</th>
+                        <th>Ending Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                         <td>Independence Day</td>
+                         <td><s>30%</s>" 40%"</td>
+                         <td>10 August</td>
+                         <td>20 August</td>
+                        </tr>
+                        <tr>
+                         <td>Diwali</td>
+                         <td><s>50%</s>" 60%"</td>
+                         <td>20 November</td>
+                         <td>27 November</td>
+                        </tr>
+                        <tr>
+                         <td>Chrismas Day</td>
+                         <td><s>30%</s>" 50%"</td>
+                         <td>20 December</td>
+                         <td>26 December</td>
+                        </tr>
+                        <tr>
+                         <td>New Year</td>
+                         <td><s>50%</s>" 75%"</td>
+                         <td>30 December</td>
+                         <td>06 January</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="bdy">
+            <h1>Fashion Store: The One-stop Fashion Destination</h1>
+            <br>
+            <p>
+                Stepping out and finding a perfect fashion choice is difficult? 
+                Why worry when you have your own Fashion Store at home where you can browse through thousands of choices and you can order clothes according to your liking. Don't worry if you don't like the item after you receive it,
+                 you can always consider the option for exchanging your item or even you can return your item and you will get the full amount back. Isn't that amazing? Start searching for your desired clothes and see it yourself. Once you are done with your first shopping, we are very sure that you will continue that in 
+                 future as well and we will try our best to give you more and more choices so that you can have a variety of clothes to choose from and so you can find one which suits you the best.
+            </p><br>
+            <p>What makes us Great? Well few things are listed below:</p><br><br>
+            <h2>Festival Sales</h2><br>
+            <p>We keep coming with different sales on our Indian Festivals where we offer huge discounts on your favorite clothes. 
+                If you want to get the notifications of all our future sales then you can subscribe to us and we will make sure that you will not miss any offer in 
+                future so that you can get your favorite cloth at the best possible price.
+            </p>
+            <br>
+            <p>
+                Some of our favorite sales are listed below:
+            </p><br>
+            <ul>
+                <li>Independence Day Sale</li>
+                <li>Diwali</li>
+                <li>Victory Day</li>
+                <li>Holiday</li>
+            </ul><br><br>
+            <h2>Payment Options</h2><br>
+            <p>
+                We support a large variety of payment options so that you won't miss a cloth due to unavailability of any payment option. You can use a debit card or your credit card to make the payment. Also, you can directly use your UPI ID to make the payment. We also provide EMI options if you think you can not afford a complete amount at once. Other than that, you can directly make your payment through your bank details and even if you are not sure or you are in doubt then you can choose the Cash option where you can pay the amount in cash to our partner who will be delivering your cloth at your doorstep.
+            </p><br>
+        </div>
+        <div class="footer">
+            © 2012-2025 FashionStore.com
+        </div>
+    </div>
+</body>
+</html>
